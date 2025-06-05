@@ -204,6 +204,24 @@ footer .link-footer {
   padding: 4rem 0 0 10rem;
 }
 
+.category {
+  display: flex;
+  gap: 1rem;
+  padding: 4rem 0 0 10rem;
+}
+
+.category button {
+  font-size: 1.3rem;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 7px;
+}
+
+.category .all-product.active {
+  background-color: #fb2c36;
+}
+
 .products {
   display: flex;
   flex-wrap: wrap;
@@ -232,6 +250,15 @@ footer .link-footer {
   color: white;
 }
 
+.product-details .name {
+  font-weight: 600;
+}
+
+.product-details .brand {
+  font-style: italic;
+  opacity: 0.8;
+}
+
 .pagination {
   display: flex;
   justify-content: center;
@@ -254,3 +281,41 @@ footer .link-footer {
   background-color: #000000;
   color: #ffffff;
 }
+
+/* about */
+
+.about-container,
+.story,
+.about-container .our-products,
+.our-brands {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-container {
+  align-items: center;
+  gap: 3rem;
+}
+
+.story,
+.our-products,
+.our-brands {
+  gap: 2rem;
+  font-size: 1.1rem;
+  padding-top: 2rem;
+  max-width: 50%;
+}
+
+/* .background {
+  position: absolute;
+  width: 30%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+} */
